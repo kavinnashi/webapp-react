@@ -1,0 +1,8 @@
+install:
+  stage: setup
+  script:
+    - npm install -g create-vite
+    - npm install  # Install project dependencies
+  artifacts:
+    paths:
+      - node_modules/
