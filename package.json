@@ -4,7 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    
+    "start-client": "cd client && npm start",
+    "build-client": "cd client && npm run build",
+    "test-client": "cd client && npm test",
+    "start": "npm run start-client",
+    "build": "npm run build-client",
+    "test": "npm run test-client"
   },
   "author": "",
   "license": "ISC"
